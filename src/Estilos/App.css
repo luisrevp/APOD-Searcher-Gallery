@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.page,
+.loading-page,
+.errorPage {
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.page > h1 {
+  text-align: center;
+  padding: 50px 25px 0px;
+  margin-top: 80px;
+}
+
+.search-container {
+  width: 90%;
+  margin: auto;
+}
+
+.search-container h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.search-container h3 {
+  text-align: center;
+}
+
+/*Barra de busqueda*/
+
+.search {
+  display: flex;
+  text-align: center;
+  margin: 5px 0px;
+  padding: 20px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.search .bar {
+  display: inline-block;
+  margin: 20px;
+  padding: 0px 15px;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+
+.search .bar > input,
+.search .bar > button,
+.search select {
+  border: none;
+  outline: none;
+  height: 38px;
+  font-size: 18px;
+}
+
+.search .bar > input {
+  max-width: 60vw;
+  width: 50vw;
+  border-radius: 40px;
+  padding-left: 8px;
+}
+
+#search-btn {
+  display: inline-block;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.search .bar button:hover,
+.search select {
+  cursor: pointer;
+  color: #999;
+  transition: color 0.3s;
+}
+
+.search select {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 150px;
+  border-bottom: 2px solid black;
+}
+
+/*Selector de fechas*/
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.dates .date1,
+.dates .date2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+
+.dates label {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.dates input {
+  min-width: 250px;
+  max-width: 400px;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+/*nasa wrap*/
+
+.nasa-wrap {
+  text-align: center;
+  padding: 20px;
+  width: 55vw;
+  margin: 60px auto;
+  border: 1px solid #9a9a9a;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px #acacac;
+}
+
+.nasa-wrap > h1 {
+  margin: 20px;
+  padding: 15px 30px;
+  border-bottom: 3px solid black;
+}
+
+.nasa-wrap .img-container {
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 0px 20px;
+}
+
+.nasa-wrap img {
+  max-height: 50vh;
+  min-height: 400px;
+  width: 100%;
+  min-width: 60%;
+  object-fit: cover;
+  border: 1.5px solid black;
+  filter: drop-shadow(0.7);
+}
+
+.nasa-wrap h4,
+.nasa-wrap h3 {
+  margin: 5px;
+  font-style: italic;
+}
+
+.nasa-wrap p {
+  margin: 15px;
+  font-size: 15px;
+}
+
+.nasa-wrap button {
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+  background: none;
+  border: 2px solid #33459f;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nasa-wrap button:hover {
+  color: #aaa;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*Footer*/
+
+.footer {
+  position: relative;
+  font-size: 0.8em;
+  background: #ddd;
+  border-top: 3px solid red;
+}
+
+.footer-wrap {
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-wrap h1,
+.proyectos,
+.redes-sociales {
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer-wrap h1 {
+  font-size: 1.8em;
+  letter-spacing: 2.2px;
+  text-align: center;
+}
+
+.footer-wrap .proyectos {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-wrap .proyectos a {
+  text-decoration: none;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 7px;
+  color: #000;
+}
+
+.redes-sociales h2 {
+  font-size: 1.6em;
+  padding: 8px;
+  display: inline-block;
+}
+
+.redes-sociales .red {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.redes-sociales .red svg {
+  width: 30px;
+  height: 30px;
+  color: #000;
+  font-weight: 600;
+}
+
+.red svg:hover,
+.proyectos a:hover {
+  color: #99a11e;
+  transition: color 0.2s;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1000px) {
+  .page {
+    width: 100%;
+  }
+
+  .nasa-wrap {
+    width: 85vw;
+  }
+
+  .nasa-wrap img {
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .footer-wrap {
+    text-align: center;
+  }
+  .red {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #search-btn-container {
+    width: 100%;
+    margin: 10px 0px 20px;
+  }
+
+  #search-btn {
+    display: block;
+    margin: auto;
+    width: 45%;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  #search-btn:hover {
+    background: #1e4ca1;
+    color: #fff;
+    transition: all 0.2s;
+  }
+}
