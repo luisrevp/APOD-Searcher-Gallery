@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/buscador-apod/static/css/main.96f9ddc5.chunk.css",
+    "main.js": "/buscador-apod/static/js/main.0e16a7d7.chunk.js",
+    "main.js.map": "/buscador-apod/static/js/main.0e16a7d7.chunk.js.map",
+    "runtime-main.js": "/buscador-apod/static/js/runtime-main.2f93fd71.js",
+    "runtime-main.js.map": "/buscador-apod/static/js/runtime-main.2f93fd71.js.map",
+    "static/js/2.75896424.chunk.js": "/buscador-apod/static/js/2.75896424.chunk.js",
+    "static/js/2.75896424.chunk.js.map": "/buscador-apod/static/js/2.75896424.chunk.js.map",
+    "index.html": "/buscador-apod/index.html",
+    "static/css/main.96f9ddc5.chunk.css.map": "/buscador-apod/static/css/main.96f9ddc5.chunk.css.map",
+    "static/js/2.75896424.chunk.js.LICENSE.txt": "/buscador-apod/static/js/2.75896424.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f93fd71.js",
+    "static/js/2.75896424.chunk.js",
+    "static/css/main.96f9ddc5.chunk.css",
+    "static/js/main.0e16a7d7.chunk.js"
+  ]
+}
