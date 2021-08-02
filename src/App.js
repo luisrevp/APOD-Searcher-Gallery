@@ -13,7 +13,7 @@ function App() {
       <Router>
         <BarraNav />
         <Switch>
-          <Route path="/" component={MainRender} exact />
+          <Route path="/buscador-apod" component={MainRender} exact />
           <Route path="/acerca" component={Acerca} />
           <Route path="*" component={ErrorPage} />
         </Switch>

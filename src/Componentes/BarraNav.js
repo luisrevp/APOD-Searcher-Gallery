@@ -28,7 +28,7 @@ const BarraNav = () => {
     <nav
       className={background ? "navBar backgroundOn" : "navBar backgroundOff"}
     >
-      <Link to="/" id="logo">
+      <Link to="/buscador-apod" id="logo">
         NASA Searcher
       </Link>
       <UlContainer background={background} size={size} />
@@ -85,7 +85,10 @@ const UlContainer = ({ background, size }) => {
       >
         {size < 900 && toggleNav && <li id="resp-button">{burgerButton}</li>}
         <li className="links" onClick={() => setToggleNav(!toggleNav)}>
-          <Link to="/" style={{ color: background ? "#000" : "#fff" }}>
+          <Link
+            to="/buscador-apod"
+            style={{ color: background ? "#000" : "#fff" }}
+          >
             Buscador
           </Link>
         </li>
