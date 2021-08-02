@@ -72,6 +72,7 @@
 
 #search-btn {
   display: inline-block;
+  background: none;
   width: 40px;
   margin-right: 10px;
 }
@@ -218,8 +219,8 @@
 }
 
 .footer-wrap h1 {
-  font-size: 1.8em;
-  letter-spacing: 2.2px;
+  font-size: 1.5em;
+  letter-spacing: 2px;
   text-align: center;
 }
 
@@ -297,16 +298,16 @@
     margin: auto;
     width: 45%;
     height: 40px;
+    border-radius: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background: none;
     cursor: pointer;
     outline: none;
+    transition: all 0.2s;
   }
 
   #search-btn:hover {
-    background: #1e4ca1;
+    background: rgba(13, 131, 66, 0.8);
     color: #fff;
-    transition: all 0.2s;
   }
 }
