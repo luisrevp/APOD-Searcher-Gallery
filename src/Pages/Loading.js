@@ -4,8 +4,8 @@ import "../Estilos/LoadingError.css";
 const Loading = () => {
   return (
     <div className="loading-page">
-      <h2>Cargando</h2>
-      <p>Esto puede tomar unos segundos</p>
+      <h2>Loading...</h2>
+      <p>This may take a few seconds</p>
     </div>
   );
 };

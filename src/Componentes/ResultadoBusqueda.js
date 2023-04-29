@@ -10,10 +10,9 @@ const SearchResult = (props) => {
 
   useEffect(() => {
     const toggleTitle = filterSearch
-      ? `Búsqueda: ${busqueda.length} resultados`
-      : "¡Bienvenidos!";
+      ? `Search: ${busqueda.length} results`
+      : "APOD Searcher";
     return (document.title = toggleTitle);
-    // return (document.title = `Búsqueda: ${busqueda.length} resultados`);
   }, [filterSearch, busqueda]);
 
   return (
@@ -21,10 +20,10 @@ const SearchResult = (props) => {
       <h1>
         {busqueda.length > 0 &&
           filterSearch &&
-          `Resultado de búsqueda: ${busqueda.length}`}
+          `Search result: ${busqueda.length}`}
       </h1>
       {busqueda.length === 0 && filterSearch ? (
-        <h3>No se ha encontrado nada...</h3>
+        <h3>There are no results...</h3>
       ) : (
         filterSearch &&
         busqueda.map((data) => {
@@ -35,15 +34,15 @@ const SearchResult = (props) => {
               <div className="img-container">
                 <img src={url} />
               </div>
-              <h4>fecha: {date}</h4>
-              <h3>Autor: {author || "Autor desconocido"}</h3>
+              <h4>Date: {date}</h4>
+              <h3>Author: {author || "Unknown"}</h3>
               <p>
                 {toggleDesc[id]
                   ? explanation
                   : explanation.substring(0, 120) + "..."}
               </p>
               <button onClick={() => descripcion(id)}>
-                {toggleDesc[id] ? "Leer Menos" : "Leer Más"}
+                {toggleDesc[id] ? "Read less" : "Read more"}
               </button>
             </div>
           );

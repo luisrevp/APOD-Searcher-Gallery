@@ -28,7 +28,7 @@ const BarraNav = () => {
     <nav
       className={background ? "navBar backgroundOn" : "navBar backgroundOff"}
     >
-      <Link to="/buscador-apod" id="logo">
+      <Link to="/APOD-Searcher-Gallery" id="logo">
         NASA Searcher
       </Link>
       <UlContainer background={background} size={size} />
@@ -86,20 +86,20 @@ const UlContainer = ({ background, size }) => {
         {size < 900 && toggleNav && <li id="resp-button">{burgerButton}</li>}
         <li className="links" onClick={() => setToggleNav(!toggleNav)}>
           <Link
-            to="/buscador-apod"
+            to="/APOD-Searcher-Gallery"
             style={{ color: background ? "#000" : "#fff" }}
           >
-            Buscador
+            Searcher
           </Link>
         </li>
         <li className="links" onClick={() => setToggleNav(!toggleNav)}>
-          <Link to="/acerca" style={{ color: background ? "#000" : "#fff" }}>
-            Acerca de pagina
+          <Link to="/About" style={{ color: background ? "#000" : "#fff" }}>
+            About
           </Link>
         </li>
         <li className="links" onClick={() => setToggleNav(!toggleNav)}>
           <a href="https://luisrevp.github.io/Personal-webpage/">
-            Página Personal
+            Personal webpage
           </a>
         </li>
       </ul>

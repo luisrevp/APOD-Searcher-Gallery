@@ -6,24 +6,24 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-wrap">
         <h1>
-          Sitio creado por Luis Revilla
+          Site created by Luis Revilla
           <br />
-          <br /> Tecnología utilizada: React
+          <br />this is a project made in React.JS
         </h1>
         <div className="proyectos">
-          <h1>Otros proyectos:</h1>
+          <h1>Other projects:</h1>
           <a href="https://luisrevp.github.io/Personal-webpage/">
-            Página personal
+            Personal Webpage
           </a>
           <a href="https://luisrevp.github.io/Sushi-restaurant/">
-            Restaurante de Sushi
+            Sushi restaurant
           </a>
           <a href="https://luisrevp.github.io/Chrome-clock-extension/reloj.html">
-            Extensión de Chrome
+            Chrome extension
           </a>
         </div>
         <div className="redes-sociales">
-          <h1>¡Visita mis redes!</h1>
+          <h1>My social networks</h1>
           <div className="red linkedin">
             <h2>LinkedIn</h2>
             <a href="https://www.linkedin.com/in/luis-revilla/" target="_blank">

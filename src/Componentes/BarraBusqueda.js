@@ -30,23 +30,25 @@ const SearchBar = ({
         <div className="bar">
           <input
             type="text"
-            placeholder="busque lo que necesite"
+            placeholder="What do you want to look for?"
             value={search}
+            onKeyDown={(e) => {if(e.key=="Enter") setFilterSearch(e)}}
             onChange={(e) => {
               setSearch(e.target.value);
               setFilterSearch(false);
             }}
           />
           {size > 460 && (
-            <button id="search-btn" onClick={(e) => setFilterSearch(true)}>
-              Buscar
+            <button type="submit" id="search-btn" 
+              onClick={(e) => setFilterSearch(true)}>
+              Search
             </button>
           )}
         </div>
         {size <= 460 && (
           <div id="search-btn-container">
             <button id="search-btn" onClick={(e) => setFilterSearch(true)}>
-              Buscar
+              Search
             </button>
           </div>
         )}
@@ -55,15 +57,15 @@ const SearchBar = ({
           label="Filtrar por:"
           onChange={(e) => setQuery(e.target.value)}
         >
-          <option value="title">Ordenar: Titulo</option>
-          <option value="author">Ordenar: Autor</option>
-          <option value="date">Ordenar: Fecha</option>
+          <option value="title">Order by: Title</option>
+          <option value="author">Order by: Author</option>
+          <option value="date">Order by: Date</option>
         </select>
       </div>
 
       <div className="dates">
         <div className="date1">
-          <label htmlFor="desde">Desde:</label>
+          <label htmlFor="desde">From:</label>
           <input
             type="date"
             id="desde"
@@ -75,7 +77,7 @@ const SearchBar = ({
           />
         </div>
         <div className="date2">
-          <label htmlFor="hasta">Hasta:</label>
+          <label htmlFor="hasta">To:</label>
           <input
             type="date"
             id="hasta"

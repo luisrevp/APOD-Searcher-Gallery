@@ -95,7 +95,7 @@ function MainRender() {
   }
   return (
     <div className="page">
-      <h1>Buscador de APOD (Astronomy Picture of the Day)</h1>
+      <h1>APOD searcher (Astronomy Picture of the Day)</h1>
       <div className="page-result">
         {/* <BarraBusqueda /> */}
         <SearchBar

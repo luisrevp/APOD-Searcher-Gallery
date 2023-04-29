@@ -8,32 +8,30 @@ const Acerca = () => {
       <div className="about-page">
         <div className="about-wrap">
           <div className="about-content">
-            <h1>Acerca de esta página</h1>
+            <h1>About this page</h1>
             <p>
-              Este es un simple proyecto que consiste de un buscador APOD
+              This is a simple project consisting of an APOD searcher (acronymn for 
               <br />
-              (acrónimo para <span>Astronomy Picture of the Day</span>)
-              disponible de la NASA,
+              "<span>Astronomy Picture of the Day</span>") from NASA, in which we can find
               <br />
-              en la cual permite navegar a estas fotografias
-              <br /> a través de un sistema de búsqueda con filtros
-              incorporados.
+              information about the pictures through a search bar, with
+              <br />
+              capabilities for sorting and assign a range of dates.
             </p>
 
             <p>
-              La API la puedes tomar desde{" "}
+              You can explore the API from{" "}
               <a href="https://api.nasa.gov/" target="_blank">
-                acá
+                here
               </a>
-              . Para ello, deberás registrarte
+              . In order to do so, you need to register
               <br />
-              y crear una API key con la cual podrás tener acceso a los enlaces.
+              and generate an API key in which you'll have access to all the links.
               <br />
             </p>
             <p>
-              Los instructivos de Queries o consultas están disponibles en la
-              página. El límite de
-              <br /> peticiones por usuario son de 1000 por hora.
+              All Querying instructions are available on their page. the request limit
+              <br />per user are 1000 per hour.
             </p>
           </div>
         </div>
