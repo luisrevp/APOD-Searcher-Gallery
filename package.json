@@ -1,8 +1,8 @@
 {
-  "homepage": "https://luisrevp.github.io/buscador-apod/",
-  "name": "buscador-apod",
+  "homepage": "https://luisrevp.github.io/APOD-Searcher-Gallery/",
+  "name": "apod-searcher-gallery",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
