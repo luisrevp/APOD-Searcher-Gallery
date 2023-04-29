@@ -298,6 +298,7 @@
     margin: auto;
     width: 45%;
     height: 40px;
+    border: 1px solid black;
     border-radius: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
