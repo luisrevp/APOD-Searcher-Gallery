@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/APOD-Searcher-Gallery/static/css/main.6ef9e8b6.chunk.css",
-    "main.js": "/APOD-Searcher-Gallery/static/js/main.4870470f.chunk.js",
-    "main.js.map": "/APOD-Searcher-Gallery/static/js/main.4870470f.chunk.js.map",
+    "main.js": "/APOD-Searcher-Gallery/static/js/main.c1572065.chunk.js",
+    "main.js.map": "/APOD-Searcher-Gallery/static/js/main.c1572065.chunk.js.map",
     "runtime-main.js": "/APOD-Searcher-Gallery/static/js/runtime-main.da0a26ba.js",
     "runtime-main.js.map": "/APOD-Searcher-Gallery/static/js/runtime-main.da0a26ba.js.map",
     "static/js/2.926b6197.chunk.js": "/APOD-Searcher-Gallery/static/js/2.926b6197.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.da0a26ba.js",
     "static/js/2.926b6197.chunk.js",
     "static/css/main.6ef9e8b6.chunk.css",
-    "static/js/main.4870470f.chunk.js"
+    "static/js/main.c1572065.chunk.js"
   ]
 }
