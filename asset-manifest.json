@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/APOD-Searcher-Gallery/static/css/main.6ef9e8b6.chunk.css",
-    "main.js": "/APOD-Searcher-Gallery/static/js/main.c1572065.chunk.js",
-    "main.js.map": "/APOD-Searcher-Gallery/static/js/main.c1572065.chunk.js.map",
+    "main.css": "/APOD-Searcher-Gallery/static/css/main.2a1ab4c6.chunk.css",
+    "main.js": "/APOD-Searcher-Gallery/static/js/main.539014fe.chunk.js",
+    "main.js.map": "/APOD-Searcher-Gallery/static/js/main.539014fe.chunk.js.map",
     "runtime-main.js": "/APOD-Searcher-Gallery/static/js/runtime-main.da0a26ba.js",
     "runtime-main.js.map": "/APOD-Searcher-Gallery/static/js/runtime-main.da0a26ba.js.map",
     "static/js/2.926b6197.chunk.js": "/APOD-Searcher-Gallery/static/js/2.926b6197.chunk.js",
     "static/js/2.926b6197.chunk.js.map": "/APOD-Searcher-Gallery/static/js/2.926b6197.chunk.js.map",
     "index.html": "/APOD-Searcher-Gallery/index.html",
-    "static/css/main.6ef9e8b6.chunk.css.map": "/APOD-Searcher-Gallery/static/css/main.6ef9e8b6.chunk.css.map",
+    "static/css/main.2a1ab4c6.chunk.css.map": "/APOD-Searcher-Gallery/static/css/main.2a1ab4c6.chunk.css.map",
     "static/js/2.926b6197.chunk.js.LICENSE.txt": "/APOD-Searcher-Gallery/static/js/2.926b6197.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.da0a26ba.js",
     "static/js/2.926b6197.chunk.js",
-    "static/css/main.6ef9e8b6.chunk.css",
-    "static/js/main.c1572065.chunk.js"
+    "static/css/main.2a1ab4c6.chunk.css",
+    "static/js/main.539014fe.chunk.js"
   ]
 }
